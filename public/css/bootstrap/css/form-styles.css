@@ -1,0 +1,80 @@
+.well{
+    background-color: #89c5b7;
+}
+
+.my-form .form-group{
+    margin-bottom: 0px;
+}
+
+.my-form legend{
+    color: #6d9c91;
+    padding-bottom: 9px;
+    border-bottom: 3px solid #6d9c91;
+    margin-bottom: 8px;
+}
+
+.my-form .form-group label{
+    color: #6d9c91;
+}
+
+.my-form .form-group input, .my-form .form-group textarea, .my-form .form-group select{
+    border: 1px solid #6d9c91;
+    border-radius: 3px;
+    padding: 3px 10px;
+    color: #6d9c91;
+    background-color: #d1e9f6;
+    text-align: right;
+}
+
+.my-form input{
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.my-form button{
+    background-color: #6d9c91;
+    border: none;
+    transition:all 300ms  ;
+}
+
+.my-form button:hover{
+    background-color: #c3c4bc;
+    color: #000;
+}
+
+.map h1{
+    margin-bottom: 17px;
+    font-size: 18px;
+    color: #6d9c91;
+    padding-bottom: 23px;
+    border-bottom: 3px solid #6d9c91;
+}
+
+.map iframe{
+    height: 325px;
+}
+.my-form .form-group:hover input{
+    background-color: #f3f4ec;
+}
+
+.my-form .form-group input:focus{
+    background-color: #f3f4ec;
+}
+
+.my-form .form-group:hover textarea{
+    background-color: #f3f4ec;
+}
+form{
+    margin: 71px;
+}
+.my-form .form-group select{
+    margin-right: 5px;
+}
+.my-form .form-control{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.my-form .form-horizantal .form-group{
+    margin-right: 3px;
+}
