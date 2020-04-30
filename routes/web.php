@@ -210,3 +210,5 @@ Route::get('session', function(Request $request){
     $request->session()->forget('username');
  return  $request->session()->all();
 });
+
+//changes has been don
