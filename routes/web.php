@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -211,4 +212,11 @@ Route::get('session', function(Request $request){
  return  $request->session()->all();
 });
 
-//changes has been don
+//changes has been done
+
+Route::prefix('fa')->group(function(){
+    App::setLocale('fa');
+    Route::get('/message', function(){
+        return view ('message');
+    });
+});
